@@ -10,6 +10,7 @@ public class SheetTest {
 
 	@Test
 	public void can_instanciate_a_spreadSheet() throws Exception {
-		assertThat(true).isTrue();
+		Sheet sheet = new SheetImpl();
+		assertThat(sheet).isNotNull();
 	}
 }
