@@ -16,7 +16,6 @@ public class SheetTest {
 
 	@Test
 	public void can_instanciate_a_spreadSheet() throws Exception {
-
 		assertThat(sheet).isNotNull();
 	}
 

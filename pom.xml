@@ -4,9 +4,9 @@
 
 
   <groupId>org.dmetzler.isen.jee</groupId>
-  <artifactId>jee-bootstrap-parent</artifactId>
+  <artifactId>jee-spreadsheet-parent</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <name>Puissance 4 :: parent</name>
+  <name>SpreadSheet :: parent</name>
   <packaging>pom</packaging>
   <description></description>
 
@@ -18,7 +18,7 @@
   </properties>
 
   <modules>
-    <module>jee-bootstrap-core</module>
+    <module>jee-spreadsheet-core</module>
     <!-- module>jee-bootstrap-jpa</module>
     <module>jee-bootstrap-web</module>
     <module>jee-bootstrap-rest</module -->
@@ -205,7 +205,7 @@
 
       <dependency>
         <groupId>org.dmetzler.isen.jee-bootstrap</groupId>
-        <artifactId>jee-bootstrap-core</artifactId>
+        <artifactId>jee-spreadsheet-core</artifactId>
         <version>${project.version}</version>
       </dependency>
       <!-- dependency>
